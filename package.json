@@ -1,0 +1,32 @@
+{
+  "name": "dsh-tide-hint-desktop",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "DSH 峰谷提示插件的 Tauri v2 Windows 桌面版",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "icons": "pwsh -NoProfile -ExecutionPolicy Bypass -File scripts/generate-icons.ps1",
+    "tauri": "node scripts/tauri.mjs"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "2.12.4",
+    "@tauri-apps/plugin-autostart": "2.7.0",
+    "@tauri-apps/plugin-opener": "2.7.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "2.12.4",
+    "@types/react": "18.3.28",
+    "@types/react-dom": "18.3.7",
+    "@vitejs/plugin-react": "5.1.1",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.32",
+    "tailwindcss": "^3.4.17",
+    "typescript": "5.9.3",
+    "vite": "^7.3.8"
+  }
+}

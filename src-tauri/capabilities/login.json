@@ -1,0 +1,14 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "deepseek-login",
+  "description": "仅允许 DeepSeek 官方登录窗口回传 userToken 或关闭自身。",
+  "windows": ["login"],
+  "local": false,
+  "remote": {
+    "urls": ["https://platform.deepseek.com/*"]
+  },
+  "permissions": [
+    "allow-save-user-token-and-close",
+    "allow-close-login-window"
+  ]
+}

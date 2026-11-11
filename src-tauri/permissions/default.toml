@@ -1,0 +1,17 @@
+[default]
+description = "允许主窗口调用 DSH 峰谷提示的全部本地命令。"
+permissions = [
+  "allow-get-credential-status",
+  "allow-set-api-key",
+  "allow-set-user-token",
+  "allow-clear-credentials",
+  "allow-fetch-balance",
+  "allow-fetch-usage",
+  "allow-fetch-pricing",
+  "allow-fetch-topup",
+  "allow-open-deepseek-login",
+  "allow-set-expanded",
+  "allow-set-window-mini",
+  "allow-hide-window",
+  "allow-set-always-on-top",
+]
